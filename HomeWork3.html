@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork Number 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./Style1.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./HomeWork3.html" class="logo"><span>HA</span>Code</a>
+            <ul class="links">
+                <li><a href="./HomeWork3.html" target="_blank">Home</a></li>
+                <li><a href="#" target="_blank">About</a></li>
+                <li><a href="./../Hakim_Front End-RTC/Project-1.html" target="_blank">CV</a></li>
+                <li><a href="./project's.html" target="_blank">Project's</a></li>
+                <li><a href="#" target="_blank">contant</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <i id="btnmenu" class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+
+    <div class="hero-sec">
+        <div class="contanier">
+            <div class="dev-text">
+                <h1>Hakim Albnna</h1>
+                <span>Web Designer</span>
+                <p>
+                    ipsum dolor sit amet consectetur adipisicing elit. Est, voluptas consectetur possimus exercitationem modi quia quod eveniet laborum explicabo quasi!
+                </p>
+                <a href="img2.jpg.jpg" class="btn">My Works</a>
+            </div>
+
+            <div class="div-img">
+                <img src="./ei_1705187275238-removebg-preview (1) - Copy.png" alt="" width="250">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let btnmenu = document.getElementById("btnmenu");
+        let NavLinks = document.querySelector(".links");
+
+        btnmenu.onclick = function() {
+            btnmenu.classList.toggle("fa-times")
+            NavLinks.classList.toggle("active")
+        }
+    </script>
+
+</body>
+
+</html>
